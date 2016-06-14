@@ -58,7 +58,7 @@
 		</section>
 
 		<section>
-			<div id="map" style="width: 600px; height: 400px"></div>
+			<div id="map"></div>
 		</section>
 
 		<footer>
@@ -88,6 +88,12 @@
 				[44.53041, -73.04851]
 			]).addTo(mymap);
 
+			var marker = L.marker([44.50045, -73.04752]).addTo(mymap)
+				.bindPopup("Raspberries and blackberries");
+			var marker = L.marker([44.49513, -73.03696]).addTo(mymap)
+				.bindPopup("Saxon Hill: I helped make this trail");
+			var marker = L.marker([44.48775, -73.02375]).addTo(mymap)
+				.bindPopup("Saxon Hill: Top");
 
 
 			var popup = L.popup();
