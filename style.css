@@ -1,0 +1,65 @@
+body{
+	margin:0;
+}
+.topSection{
+	padding-top:38px;
+}
+
+header{
+	background-color: purple;
+	position:fixed;
+	width:100%;
+}
+header h1{
+	margin:0;
+}
+
+footer{
+	background-color: green;
+	margin-bottom:0;
+	margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+td ol, td ul {
+	margin: 0;
+}
+section {
+	width: 60%;
+	margin: 0 auto;/*Sideways centre*/
+	overflow: auto;
+}
+section img{
+	width:100%;
+}
+
+#notMyImage{
+	width: 42px;
+}
+
+header{
+}
+footer:marg
+
+.imageRow{
+	padding-top: 5px;
+	margin: 1px;
+}
+.imageRow figure{
+	width: 30%;
+	float: left;
+	margin: .5%; 
+	padding: 2px;
+	border: 1px solid black;
+}
+
+#map {
+	width: 600px;
+	height: 400px
+}
