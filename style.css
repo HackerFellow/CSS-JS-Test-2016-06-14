@@ -64,7 +64,7 @@ footer:marg
 	width: 30%;
 	width: calc(33% - 9px);
 	float: left;
-	margin: 2px; 
+	margin: 2px;
 	padding: 2px;
 	border: 1px solid black;
 }
